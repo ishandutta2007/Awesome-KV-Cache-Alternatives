@@ -11,7 +11,7 @@
     <img src="https://img.shields.io/badge/PRs-welcome-blue.svg" alt="PRs Welcome">
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License">
     <img src="https://img.shields.io/badge/LLM-Inference-orange.svg" alt="LLM Inference">
-    <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow&style=for-the-badge" /></a>
+    <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
   </p>
 </div>
 
