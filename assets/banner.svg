@@ -1,0 +1,38 @@
+<svg width="800" height="250" viewBox="0 0 800 250" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="250" fill="#0d1117" rx="10"/>
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#bc8cff;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Decorative background elements -->
+  <circle cx="50" cy="50" r="2" fill="#30363d"/>
+  <circle cx="750" cy="200" r="3" fill="#30363d"/>
+  <circle cx="100" cy="180" r="1.5" fill="#30363d"/>
+  <path d="M0 200 Q 200 150 400 200 T 800 200" fill="none" stroke="#21262d" stroke-width="1"/>
+  
+  <!-- Main Text -->
+  <text x="50%" y="45%" dominant-baseline="middle" text-anchor="middle" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="42" font-weight="800" fill="url(#grad1)" filter="url(#glow)">Awesome KV Cache Alternatives</text>
+  
+  <!-- Subtext -->
+  <text x="50%" y="68%" dominant-baseline="middle" text-anchor="middle" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="18" fill="#8b949e" letter-spacing="1">High-Efficiency LLM Inference &amp; Memory Optimization</text>
+  
+  <!-- Tech Tags -->
+  <rect x="280" y="180" width="80" height="25" rx="12" fill="#238636" opacity="0.8"/>
+  <text x="320" y="197" dominant-baseline="middle" text-anchor="middle" font-family="monospace" font-size="12" fill="#ffffff">Architectures</text>
+  
+  <rect x="370" y="180" width="80" height="25" rx="12" fill="#1f6feb" opacity="0.8"/>
+  <text x="410" y="197" dominant-baseline="middle" text-anchor="middle" font-family="monospace" font-size="12" fill="#ffffff">Compression</text>
+  
+  <rect x="460" y="180" width="80" height="25" rx="12" fill="#8957e5" opacity="0.8"/>
+  <text x="500" y="197" dominant-baseline="middle" text-anchor="middle" font-family="monospace" font-size="12" fill="#ffffff">System-Level</text>
+</svg>
