@@ -4,7 +4,7 @@
   <img src="assets/banner.svg" alt="Awesome KV Cache Alternatives Banner" width="800">
   <br />
   <p align="center">
-    <a href="https://github.com/sindresorhus/awesome">
+    <a href="https://github.com/ishandutta2007/awesome-awesome-awesome">
       <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome">
     </a>
     <img src="https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg" alt="Maintained">
